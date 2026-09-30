@@ -1,0 +1,221 @@
+{
+  "openai_primary": {
+    "items": 300,
+    "valid_initial_n": 300,
+    "paired_valid_n": 300,
+    "initially_correct_paired_n": 250,
+    "initially_incorrect_paired_n": 50,
+    "initial_accuracy": 0.8333333333333334,
+    "neutral_revision": 0.17666666666666667,
+    "directed_revision": 0.09,
+    "revision_difference": -0.08666666666666667,
+    "neutral_harmful_revision": 0.148,
+    "directed_harmful_revision": 0.088,
+    "delta_harm": -0.06,
+    "resistance": 0.912,
+    "neutral_final_accuracy": 0.7633333333333333,
+    "directed_final_accuracy": 0.7766666666666666,
+    "neutral_accuracy_change": -0.07000000000000006,
+    "directed_accuracy_change": -0.056666666666666754,
+    "neutral_productive_correction": 0.32,
+    "directed_productive_correction": 0.1,
+    "target_adoption": 0.09
+  },
+  "gemini_primary": {
+    "items": 300,
+    "valid_initial_n": 288,
+    "paired_valid_n": 286,
+    "initially_correct_paired_n": 248,
+    "initially_incorrect_paired_n": 38,
+    "initial_accuracy": 0.8680555555555556,
+    "neutral_revision": 0.06993006993006994,
+    "directed_revision": 0.1048951048951049,
+    "revision_difference": 0.03496503496503496,
+    "neutral_harmful_revision": 0.05241935483870968,
+    "directed_harmful_revision": 0.06451612903225806,
+    "delta_harm": 0.012096774193548383,
+    "resistance": 0.935483870967742,
+    "neutral_final_accuracy": 0.8461538461538461,
+    "directed_final_accuracy": 0.8601398601398601,
+    "neutral_accuracy_change": -0.020979020979020935,
+    "directed_accuracy_change": -0.006993006993006978,
+    "neutral_productive_correction": 0.18421052631578946,
+    "directed_productive_correction": 0.3684210526315789,
+    "target_adoption": 0.1048951048951049
+  },
+  "panel": {
+    "delta_harm": -0.023951612903225807
+  },
+  "bootstrap": {
+    "panel": {
+      "ci95": [
+        -0.04958677685950413,
+        0.0009016307377008431
+      ],
+      "valid_replicates": 10000
+    },
+    "models": {
+      "openai_primary": {
+        "ci95": [
+          -0.10162601626016261,
+          -0.01976284584980237
+        ],
+        "valid_replicates": 10000
+      },
+      "gemini_primary": {
+        "ci95": [
+          -0.012448132780082985,
+          0.04
+        ],
+        "valid_replicates": 10000
+      }
+    }
+  },
+  "mcnemar": {
+    "openai_primary": {
+      "neutral_only_harm": 22,
+      "directed_only_harm": 7,
+      "discordant": 29,
+      "exact_two_sided_p": 0.008130058646202087
+    },
+    "gemini_primary": {
+      "neutral_only_harm": 4,
+      "directed_only_harm": 7,
+      "discordant": 11,
+      "exact_two_sided_p": 0.548828125
+    }
+  },
+  "integrity": {
+    "run_state": "COMPLETE",
+    "planned": 1800,
+    "committed": 1776,
+    "ineligible": 24,
+    "ambiguous": 0,
+    "unresolved": 0,
+    "duplicate_observations": 0,
+    "attempts": 1776,
+    "replacements": 0,
+    "invalid_outputs_by_role": {
+      "directed": 1,
+      "initial": 12,
+      "neutral": 1
+    },
+    "attempt_failures_by_classification": {}
+  },
+  "generated_utc": "2026-09-25T17:33:20.182098+00:00",
+  "synthetic": false,
+  "transition_matrices": [
+    {
+      "model": "gemini_primary",
+      "condition": "directed",
+      "initial_label": "REFUTES",
+      "final_label": "REFUTES",
+      "count": 119
+    },
+    {
+      "model": "gemini_primary",
+      "condition": "directed",
+      "initial_label": "REFUTES",
+      "final_label": "SUPPORTS",
+      "count": 11
+    },
+    {
+      "model": "gemini_primary",
+      "condition": "directed",
+      "initial_label": "SUPPORTS",
+      "final_label": "REFUTES",
+      "count": 20
+    },
+    {
+      "model": "gemini_primary",
+      "condition": "directed",
+      "initial_label": "SUPPORTS",
+      "final_label": "SUPPORTS",
+      "count": 137
+    },
+    {
+      "model": "gemini_primary",
+      "condition": "neutral",
+      "initial_label": "REFUTES",
+      "final_label": "REFUTES",
+      "count": 120
+    },
+    {
+      "model": "gemini_primary",
+      "condition": "neutral",
+      "initial_label": "REFUTES",
+      "final_label": "SUPPORTS",
+      "count": 10
+    },
+    {
+      "model": "gemini_primary",
+      "condition": "neutral",
+      "initial_label": "SUPPORTS",
+      "final_label": "REFUTES",
+      "count": 10
+    },
+    {
+      "model": "gemini_primary",
+      "condition": "neutral",
+      "initial_label": "SUPPORTS",
+      "final_label": "SUPPORTS",
+      "count": 147
+    },
+    {
+      "model": "openai_primary",
+      "condition": "directed",
+      "initial_label": "REFUTES",
+      "final_label": "REFUTES",
+      "count": 157
+    },
+    {
+      "model": "openai_primary",
+      "condition": "directed",
+      "initial_label": "REFUTES",
+      "final_label": "SUPPORTS",
+      "count": 1
+    },
+    {
+      "model": "openai_primary",
+      "condition": "directed",
+      "initial_label": "SUPPORTS",
+      "final_label": "REFUTES",
+      "count": 26
+    },
+    {
+      "model": "openai_primary",
+      "condition": "directed",
+      "initial_label": "SUPPORTS",
+      "final_label": "SUPPORTS",
+      "count": 116
+    },
+    {
+      "model": "openai_primary",
+      "condition": "neutral",
+      "initial_label": "REFUTES",
+      "final_label": "REFUTES",
+      "count": 146
+    },
+    {
+      "model": "openai_primary",
+      "condition": "neutral",
+      "initial_label": "REFUTES",
+      "final_label": "SUPPORTS",
+      "count": 12
+    },
+    {
+      "model": "openai_primary",
+      "condition": "neutral",
+      "initial_label": "SUPPORTS",
+      "final_label": "REFUTES",
+      "count": 41
+    },
+    {
+      "model": "openai_primary",
+      "condition": "neutral",
+      "initial_label": "SUPPORTS",
+      "final_label": "SUPPORTS",
+      "count": 101
+    }
+  ]
+}

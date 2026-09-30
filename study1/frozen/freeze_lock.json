@@ -1,0 +1,31 @@
+{
+  "version": "main_study_freeze_20260923_v1",
+  "created_utc": "2026-09-23T20:56:50.291961+00:00",
+  "created_before_any_main_inference": true,
+  "final_N": 300,
+  "artifact_hashes": {
+    "SCIENTIFIC_PROTOCOL.md": "d29a3881c35e900e8ed2429a54bf117c540d9362f7344d43edb027c9cab1c8de",
+    "chunk_100_item_ids.txt": "7507dbfd53b7ed4ffac9c6247e2b9596c63d3bd3efe83136384d788708dcae91",
+    "chunk_100_manifest.jsonl": "1592b85989b7dba14e6ac753e3f6fbb9a79cf749740b5dbac3d804cf6708f071",
+    "chunk_200_item_ids.txt": "3acc924735b4b1beaee979f41769727e36aef153998a17ffa01b12d5e0f5dd8a",
+    "chunk_200_manifest.jsonl": "27005db30412805d37a09f3c395ab994c178efdfb02c4fa600081ae05ba2f14c",
+    "chunk_union_proof.json": "9c9c21f269fc62f6549c74403c756d5e45207518ff42eb529151c090fba4d8b6",
+    "config.json": "4139f0acfa3866824b07c09100808575d4327e6e093df3cc2fdb93cca10532c3",
+    "dataset_audit.json": "50e165c5999733d19c2f196c1b6a613018fd960663b3cf2832388b58d49dd2b1",
+    "disjointness.json": "5cf19ac343c207bedd409ff3830252654eed0d98cecc49cc5f7c191e649bad95",
+    "manifest.jsonl": "6ac337d0d4351a680eb649933628b1aa6030ede34027c947f21832f56130f5c4",
+    "observation_identity_catalog.jsonl": "99a89b12e1a465ac44c336b30d82ff54a3c4f4120569ad7c34abc0954cde9f27",
+    "observation_schedule.jsonl": "3883691ede67aa683339222a9a12268ad632d64866bc611aefdbd075f0fc4ca7",
+    "prompt_manifest.jsonl": "4c0d931d344dab98fb83a9918869b698631926c488edac2a7d2a607c06c5a82a",
+    "workload.json": "8fe68c314173ff1f5efeb4b168da59b2aa084aae9cba66682f7f135519b06ff3"
+  },
+  "authoritative_inputs": {
+    "source_sampling_manifest": "50913fb4591248fc8ff17b215812b1f6cd68ac46a375b832bcd1c18724645e93",
+    "pilot_freeze_lock": "047b6cf09e82a01b6102739fbc47d589ca2d1cdaa0ab33bd13efcb7c78d79571",
+    "pilot_rule": "16fd81d18b627bd5d9e73ad24339185671fa89253e48eac6e6b648cb2980302f",
+    "final_decision": "e58052645709ce32a100f74dee9a99ae2d07b8ebf82d41f02d330aeb00c6dc6b",
+    "diagnostic_report": "7fd0583c00f646d510c27d963e167555cc566fe2aaeb518693c51793143a7cf8",
+    "pilot_database": "8ac8e219384f851d167a3d99b13f63155ad871ec8181b66948542f396ae70649"
+  },
+  "selection_method": "first 30 items in each source×entropy-stratum under the original seeded selection order; copy item content and label order from the 400-item main pool"
+}

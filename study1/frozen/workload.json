@@ -1,0 +1,33 @@
+{
+  "items": 300,
+  "models": 2,
+  "full": {
+    "baseline": 30000,
+    "initial": 600,
+    "neutral_max": 1200,
+    "directed_max": 1200,
+    "total_max": 33000
+  },
+  "chunk_200": {
+    "baseline": 20000,
+    "initial": 400,
+    "neutral_max": 800,
+    "directed_max": 800,
+    "total_max": 22000
+  },
+  "chunk_100": {
+    "baseline": 10000,
+    "initial": 200,
+    "neutral_max": 400,
+    "directed_max": 400,
+    "total_max": 11000
+  },
+  "per_provider_full": {
+    "baseline": 15000,
+    "initial": 300,
+    "neutral_max": 600,
+    "directed_max": 600,
+    "total_max": 16500
+  },
+  "invalid_initial_rule": "each invalid initial seals exactly four conditional slots ineligible; no replacement item"
+}

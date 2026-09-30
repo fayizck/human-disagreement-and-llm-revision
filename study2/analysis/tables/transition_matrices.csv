@@ -1,0 +1,17 @@
+model,condition,initial_label,final_label,count
+gemini_primary,directed,REFUTES,REFUTES,119
+gemini_primary,directed,REFUTES,SUPPORTS,11
+gemini_primary,directed,SUPPORTS,REFUTES,20
+gemini_primary,directed,SUPPORTS,SUPPORTS,137
+gemini_primary,neutral,REFUTES,REFUTES,120
+gemini_primary,neutral,REFUTES,SUPPORTS,10
+gemini_primary,neutral,SUPPORTS,REFUTES,10
+gemini_primary,neutral,SUPPORTS,SUPPORTS,147
+openai_primary,directed,REFUTES,REFUTES,157
+openai_primary,directed,REFUTES,SUPPORTS,1
+openai_primary,directed,SUPPORTS,REFUTES,26
+openai_primary,directed,SUPPORTS,SUPPORTS,116
+openai_primary,neutral,REFUTES,REFUTES,146
+openai_primary,neutral,REFUTES,SUPPORTS,12
+openai_primary,neutral,SUPPORTS,REFUTES,41
+openai_primary,neutral,SUPPORTS,SUPPORTS,101

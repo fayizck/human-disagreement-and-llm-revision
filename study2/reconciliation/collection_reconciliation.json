@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "run_state": "COMPLETE",
+  "planned_scientific_slots": 1800,
+  "committed_observations": 1776,
+  "structurally_ineligible": 24,
+  "operational_attempts": 1776,
+  "transport_replacements": 0,
+  "committed_role_counts": {
+    "directed": 588,
+    "initial": 600,
+    "neutral": 588
+  },
+  "invalid_output_counts_by_role": {
+    "directed": 1,
+    "initial": 12,
+    "neutral": 1
+  },
+  "duplicate_commits": 0,
+  "orphan_branches": 0,
+  "usage_and_cost": {
+    "gemini": {
+      "input": 132448,
+      "output": 5369,
+      "reasoning": 0,
+      "cached": 0,
+      "cost_usd": 0.0531569
+    },
+    "openai": {
+      "input": 141125,
+      "output": 5784,
+      "reasoning": 0,
+      "cached": 0,
+      "cost_usd": 0.035455
+    }
+  },
+  "generated_utc": "2026-09-25T17:33:16.611426+00:00"
+}

@@ -1,0 +1,136 @@
+{
+  "status": "pass",
+  "errors": [],
+  "files": [
+    {
+      "file": "README.txt",
+      "sha256": "b02af8460b221a1a1a629da0d528a87e820a7d76f2772599360608e51de50f1b",
+      "git_blob_sha1": "20b5baeabfae09cc49fd11c23920548bf92178e2",
+      "bytes": 2629,
+      "matches_provenance": true
+    },
+    {
+      "file": "chaosNLI_snli.jsonl",
+      "sha256": "99f9015ddda7d85f66a087452bc30d53974314fe27e7d589e2f41ad44bd509c1",
+      "git_blob_sha1": "aea16e8f1e868493da3913e3d84c0ba0373bab33",
+      "bytes": 768107,
+      "matches_provenance": true
+    },
+    {
+      "file": "chaosNLI_mnli_m.jsonl",
+      "sha256": "8eb49b589488e7b1a9ec95fb8a864bd50f0509b4f808eed0aed3f8167617664d",
+      "git_blob_sha1": "acf6a5a539ee6d1802c3a45e7c2399ab3320e62c",
+      "bytes": 871731,
+      "matches_provenance": true
+    }
+  ],
+  "subsets": {
+    "snli": {
+      "items": 1514,
+      "validated": 1514,
+      "votes": 151400,
+      "majority_ties": 14,
+      "groups": 1235,
+      "duplicate_pair_excess": 0,
+      "entropy_quantiles": {
+        "min": 0.0,
+        "q20": 0.3154118522911846,
+        "q40": 0.472670061465625,
+        "q60": 0.589331327997029,
+        "q80": 0.6678035527143219,
+        "max": 0.9988052782817544
+      }
+    },
+    "mnli": {
+      "items": 1599,
+      "validated": 1599,
+      "votes": 159900,
+      "majority_ties": 14,
+      "groups": 1359,
+      "duplicate_pair_excess": 0,
+      "entropy_quantiles": {
+        "min": 0.050974793321072506,
+        "q20": 0.5462173540633638,
+        "q40": 0.6510526011077807,
+        "q60": 0.7289599713161798,
+        "q80": 0.8179465331710335,
+        "max": 0.9996334026853013
+      }
+    }
+  },
+  "provenance": {
+    "retrieved": "2026-09-20",
+    "source_type": "author-maintained EMNLP 2022 reproduction archive",
+    "repository": "https://github.com/jsbaan/calibration-on-disagreement-data",
+    "commit": "990e81cacadac5d0268160d1c02bad19d4ddb9a3",
+    "original_repository": "https://github.com/easonnie/ChaosNLI",
+    "original_archive_unavailable": true,
+    "original_archive_byte_identity_verified": false,
+    "files": [
+      {
+        "file": "README.txt",
+        "url": "https://raw.githubusercontent.com/jsbaan/calibration-on-disagreement-data/990e81cacadac5d0268160d1c02bad19d4ddb9a3/data/chaosNLI_v1.0/README.txt",
+        "git_blob_sha1": "20b5baeabfae09cc49fd11c23920548bf92178e2",
+        "sha256": "b02af8460b221a1a1a629da0d528a87e820a7d76f2772599360608e51de50f1b",
+        "bytes": 2629
+      },
+      {
+        "file": "chaosNLI_snli.jsonl",
+        "url": "https://raw.githubusercontent.com/jsbaan/calibration-on-disagreement-data/990e81cacadac5d0268160d1c02bad19d4ddb9a3/data/chaosNLI_v1.0/chaosNLI_snli.jsonl",
+        "git_blob_sha1": "aea16e8f1e868493da3913e3d84c0ba0373bab33",
+        "sha256": "99f9015ddda7d85f66a087452bc30d53974314fe27e7d589e2f41ad44bd509c1",
+        "bytes": 768107
+      },
+      {
+        "file": "chaosNLI_mnli_m.jsonl",
+        "url": "https://raw.githubusercontent.com/jsbaan/calibration-on-disagreement-data/990e81cacadac5d0268160d1c02bad19d4ddb9a3/data/chaosNLI_v1.0/chaosNLI_mnli_m.jsonl",
+        "git_blob_sha1": "acf6a5a539ee6d1802c3a45e7c2399ab3320e62c",
+        "sha256": "8eb49b589488e7b1a9ec95fb8a864bd50f0509b4f808eed0aed3f8167617664d",
+        "bytes": 871731
+      }
+    ]
+  },
+  "selection_warnings": [
+    {
+      "item_id": "snli:4701971823.jpg#0r1c",
+      "warning": "four_original_labels_in_release"
+    },
+    {
+      "item_id": "snli:3231675507.jpg#2r1c",
+      "warning": "four_original_labels_in_release"
+    },
+    {
+      "item_id": "snli:3012301934.jpg#3r1n",
+      "warning": "four_original_labels_in_release"
+    },
+    {
+      "item_id": "snli:3584860179.jpg#1r1n",
+      "warning": "four_original_labels_in_release"
+    },
+    {
+      "item_id": "snli:2245348304.jpg#4r1n",
+      "warning": "four_original_labels_in_release"
+    },
+    {
+      "item_id": "snli:6915308239.jpg#2r1e",
+      "warning": "four_original_labels_in_release"
+    },
+    {
+      "item_id": "snli:281658184.jpg#2r1e",
+      "warning": "four_original_labels_in_release"
+    }
+  ],
+  "published_evidence": {
+    "paper": "https://aclanthology.org/2020.emnlp-main.734/",
+    "locations": "Section 3.1: selection; Section 4/Table 2: sizes; release README: count order and base-2 entropy",
+    "local_paper": "research/sources/nie2020chaos.txt",
+    "local_documentation": "research/sources/chaosnli_readme.txt"
+  },
+  "limitations": [
+    "Pinned reproduction mirror; original archive byte identity has not been verified.",
+    "100 votes are available as aggregates; annotator independence cannot be established.",
+    "Population is original three-of-five selected SNLI/MNLI items."
+  ],
+  "related_group_count": 2594,
+  "group_policy": "Connected components of source image IDs and normalized premise text, including across sources"
+}

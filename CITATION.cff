@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Human Disagreement and Judgment Revision in Large Language Models"
+message: "Please cite the accompanying term paper when using these materials."
+type: software
+authors:
+  - family-names: Rahman
+    given-names: Fayiz
+repository-code: "https://github.com/fayizck/human-disagreement-and-llm-revision"
+date-released: 2026-09-30
+version: 1.0.0

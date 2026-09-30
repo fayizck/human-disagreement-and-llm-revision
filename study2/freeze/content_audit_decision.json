@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-25",
+  "audit_subset_file": "content_audit_subset_blinded.json",
+  "audit_subset_sha256": "cb9110e415fed1c516205f11764d6fc626a7d7c0f1a01fbb705dda5878446f00",
+  "records_reviewed": 32,
+  "review_blinding": "Gold labels were represented only as L1/L2 cell codes during the content review; no model behavior existed or was inspected.",
+  "checks": {
+    "claim_present": "32/32",
+    "evidence_present": "32/32",
+    "readable_enough_for_benchmark_task": "32/32",
+    "evidence_self_contained_enough_for_evidence_relative_judgment": "32/32; page-local pronouns/editorial artifacts were retained and documented rather than semantically cherry-picked",
+    "malformed_unicode": "0/32",
+    "control_characters": "0/32",
+    "prompt_control_strings": "0/32",
+    "unbalanced_delimiters": "0/32",
+    "obvious_terminal_truncation": "0/32"
+  },
+  "pre_freeze_rule_revision": {
+    "applied_once": true,
+    "reason": "The first blinded audit exposed explicit extraction debris and one obviously truncated terminal token. Before any sample was selected, a deterministic source-artifact rule was added and the audit candidate set regenerated once from the official test file.",
+    "rule_scope": "Encoding replacement/mojibake markers, query fragments, dangling terminal markup, unbalanced delimiters, and one/two-letter incomplete terminal tokens.",
+    "semantic_selection_prohibited": true
+  },
+  "retained_limitations": [
+    "Some canonical benchmark evidence uses pronouns, page-local context, awkward spacing, or editorial artifacts.",
+    "Those schema-valid cases were retained because removing them by semantic judgment would cherry-pick difficulty and change the benchmark population.",
+    "The task is evidence-relative benchmark classification, not independent verification of Wikipedia truth."
+  ],
+  "approved_for_freeze": true,
+  "sample_outcomes_seen": false,
+  "model_outputs_seen": false,
+  "manual_item_replacements": 0
+}

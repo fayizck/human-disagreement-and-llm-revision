@@ -1,0 +1,39 @@
+{
+  "version": "vitaminc_models_20260925_v1",
+  "fixed_panel": true,
+  "models": [
+    {
+      "key": "openai_primary",
+      "provider": "openai",
+      "model_id": "gpt-5.4-nano-2026-03-17",
+      "endpoint": "responses",
+      "settings": {
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "reasoning": {
+          "effort": "none"
+        }
+      },
+      "max_output_tokens": 16,
+      "tools": [],
+      "store": false,
+      "include": [
+        "reasoning.encrypted_content"
+      ]
+    },
+    {
+      "key": "gemini_primary",
+      "provider": "gemini",
+      "model_id": "gemini-3.5-flash-lite",
+      "endpoint": "generateContent",
+      "settings": {
+        "thinkingConfig": {
+          "thinkingLevel": "minimal"
+        }
+      },
+      "max_output_tokens": 1024,
+      "tools_or_grounding": false
+    }
+  ],
+  "compatibility_policy": "Exact identifiers and accepted payloads must pass live preflight; no substitution or parameter repair."
+}

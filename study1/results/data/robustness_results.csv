@@ -1,0 +1,4 @@
+specification,term,estimate,ci_low,ci_high,odds_ratio,p_value,interpretation,n,clusters,rank,parameters,converged,estimable,condition_number
+Gini disagreement,directed:G_per_0.1,-0.004336172584552497,-0.10483944848958908,0.09616710332048407,0.9956732150381034,0.9323903805621974,not clearly supported: the 95\% interval spans zero,2392,296,15,15,True,True,6005.79080913955
+Valid final labels only,directed:H_per_0.1,-0.02980141181398627,-0.1384506770440924,0.07884785341611984,0.9706382717037676,0.5897330579936471,not clearly supported: the 95\% interval spans zero,2389,296,15,15,True,True,6109.930513823653
+Nested n=40 U/Q,directed:H_per_0.1,-0.026988261911612417,-0.1350465148831388,0.08106999105991394,0.9733726669916793,0.6234167907109975,not clearly supported: the 95\% interval spans zero,2392,296,15,15,True,True,6096.71915533354

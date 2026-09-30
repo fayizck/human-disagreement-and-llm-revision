@@ -1,0 +1,57 @@
+{
+  "version": "vitaminc_transport_20260925_v1",
+  "timeout_seconds": 90,
+  "max_identical_transport_replacements_per_slot": 1,
+  "eligible_http_statuses": [
+    429,
+    500,
+    502,
+    503,
+    504
+  ],
+  "eligible_network_conditions": [
+    "timeout",
+    "connection interruption/reset"
+  ],
+  "nonretryable": [
+    "scientific invalid output",
+    "parse failure",
+    "authentication",
+    "model not found",
+    "unsupported parameter",
+    "wrong returned model",
+    "configuration mismatch",
+    "branch construction",
+    "manifest mismatch",
+    "security",
+    "code exception",
+    "ambiguous failure"
+  ],
+  "second_eligible_failure": "global fail-stop",
+  "workers": {
+    "openai": 4,
+    "gemini": 8
+  },
+  "request_start_rpm": {
+    "openai": 60,
+    "gemini": 240
+  },
+  "input_admission_tokens": 2048,
+  "maximum_operational_attempts": 1890,
+  "maximum_attempts_per_provider": 945,
+  "emergency_cost_guard_usd": "9.00",
+  "per_request_cost_guard_usd": "0.025",
+  "rates_per_million": {
+    "openai": {
+      "input": "0.20",
+      "cached": "0.02",
+      "output": "1.25"
+    },
+    "gemini": {
+      "input": "0.30",
+      "cached": "0.03",
+      "output": "2.50"
+    }
+  },
+  "tools_grounding_retrieval": false
+}

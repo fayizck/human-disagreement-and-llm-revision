@@ -1,0 +1,326 @@
+{
+  "seed": 20260925,
+  "selection": "four deterministic representatives per blinded label-by-length-quartile cell",
+  "records": [
+    {
+      "audit_id": "f325ffad11dcc0c3",
+      "cell_code": "L1Q1",
+      "unique_id": "5ed7acfdc9e77c00084a5582_2",
+      "group_id": "vcgrp_3dcd704e01ac155187b8",
+      "claim": "Jack Osbourne ’ s grandfather was a Jewish music manager .",
+      "evidence": "His maternal grandfather was Don Arden ( Harry Levy ) , an English-Jewish music manager .",
+      "evidence_words": 16,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "acfdcd1040972831",
+      "cell_code": "L1Q1",
+      "unique_id": "5ec284fbc9e77c0008415821_2",
+      "group_id": "vcgrp_c46e11abf4c557966f3f",
+      "claim": "Jordan Farmar averaged 8.9 points , 2.4 rebounds , and 2.8 assists in eight Euroleague games .",
+      "evidence": "He averaged 8.9 points , 2.4 rebounds and 2.8 assists in eight Euroleague games.",
+      "evidence_words": 14,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "98044abed74db1f6",
+      "cell_code": "L1Q1",
+      "unique_id": "5ee393b6c9e77c0008ccc0ec_4",
+      "group_id": "vcgrp_b77043ccfe6248392c09",
+      "claim": "Arkansas has processed more than 14,700 tests for coronavirus .",
+      "evidence": "A total of 14,904 tests have been processed.",
+      "evidence_words": 8,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "294839a877b9ebb4",
+      "cell_code": "L1Q1",
+      "unique_id": "5ed7acffc9e77c00084a5b45_4",
+      "group_id": "vcgrp_0f9d576a970cdbd9bf2b",
+      "claim": "Mathew Baynton was named Michael Mathews at birth .",
+      "evidence": "Mathew Baynton ( born Michael mathews ) is an English actor , musician and writer .",
+      "evidence_words": 16,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "536a9ae79c3c8035",
+      "cell_code": "L1Q2",
+      "unique_id": "5ece9462c9e77c0008466fe7_4",
+      "group_id": "vcgrp_48feafaf195f842cfffb",
+      "claim": "The Late Show television series is broadcast on CBS , with Stephen Colbert taking over as the host on 8 September 2015 .",
+      "evidence": "It has also housed CBS ' The Late Show series under David Letterman from 1993 to 2015 and Stephen Colbert beginning September 8 , 2015 .",
+      "evidence_words": 26,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "6c49369198201cdd",
+      "cell_code": "L1Q2",
+      "unique_id": "5eb2988ac9e77c0008d94837_4",
+      "group_id": "vcgrp_94af8562a3019d04092a",
+      "claim": "Porco Rosso 's tickets ' price was an average 1992 ticket price of 34F ( $ 6 ) .",
+      "evidence": "In France , the film sold 167,793 tickets , equivalent to at an average 1992 ticket price of 34F ( $ 6 ) .",
+      "evidence_words": 24,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "2949f863ab9cb632",
+      "cell_code": "L1Q2",
+      "unique_id": "5ee39419c9e77c0008ccfa50_1",
+      "group_id": "vcgrp_9fea27bba13d409347b8",
+      "claim": "The available apartments and office space in Burj Khalifa were purchased by overseas investors .",
+      "evidence": "However , over the next two and a half years , overseas investors steadily began to purchase the available apartments and office space in Burj Khalifa .",
+      "evidence_words": 27,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "6d3ed5db06288c72",
+      "cell_code": "L1Q2",
+      "unique_id": "5ece9464c9e77c0008467b07_2",
+      "group_id": "vcgrp_6bd5b6de681b8a097272",
+      "claim": "Scar the Martyr was a heavy metal band .",
+      "evidence": "He was the drummer and founder of the American heavy metal band Scar the Martyr which formed in 2013 and disbanded in 2016 .",
+      "evidence_words": 24,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "f17a78454cf0ae9b",
+      "cell_code": "L1Q3",
+      "unique_id": "5ece9464c9e77c0008467a9e_2",
+      "group_id": "vcgrp_30b99b056fac857fd3e0",
+      "claim": "The American Film Institute considered Saving Mr. Banks to be one of 2013 's ten best films .",
+      "evidence": "The film itself was named one of the ten best films of 2013 by the National Board of Review and the American Film Institute , and was also commercially successful , grossing $ 118 million at the worldwide box office.",
+      "evidence_words": 40,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "b80f4c385a417a66",
+      "cell_code": "L1Q3",
+      "unique_id": "5ebe6f2fc9e77c00084080c4_2",
+      "group_id": "vcgrp_f6321c5f274b8837e5f4",
+      "claim": "In the film Dope , Bug goes to Malcolm 's High School and is a member of the Bloods .",
+      "evidence": "With the meeting going as planned , Malcolm leaves with a bag of cash but is assaulted by Bug ( a Bully from Malcolm 's High School & a member of the Bloods ) , who takes the bag .",
+      "evidence_words": 40,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "6e457e0cd8baa9e4",
+      "cell_code": "L1Q3",
+      "unique_id": "5ec55991c9e77c000842df83_1",
+      "group_id": "vcgrp_fc13f071f9a480f6c2c8",
+      "claim": "Alex Fink is the inventor of Gram stain .",
+      "evidence": "The method is named after Alex Fink its inventor , the Danish scientist Hans Christian Gram ( 1853–1938 ) , who developed the technique while working with Carl Friedländer in the morgue of the city hospital in Berlin .",
+      "evidence_words": 39,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "7b604fd8710f428e",
+      "cell_code": "L1Q3",
+      "unique_id": "5ee3949bc9e77c0008cd015a_4",
+      "group_id": "vcgrp_5f5e3422d8d6408f6ce7",
+      "claim": "Pink was born before 1970 .",
+      "evidence": "Alecia Beth Moore ( born September 8 , 1969 ) , known professionally as Pink ( often stylized as ) , is an American singer , songwriter , dancer and actress .",
+      "evidence_words": 32,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "e59fd61ead9fcd4f",
+      "cell_code": "L1Q4",
+      "unique_id": "5ec7d50dc9e77c0008441a0e_1",
+      "group_id": "vcgrp_e0d4c21cd5e83fc98e10",
+      "claim": "Ohio and Virginia are in the Northeastern United States .",
+      "evidence": "Using the Census Bureaus definition of the northeast , the region includes nine states : they are Connecticut , Maine , Massachusetts , New Hampshire , New Jersey , New York , Ohio , Pennsylvania , Rhode Island , Vermont and Virginia .",
+      "evidence_words": 43,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "c331b1e4d74d45ec",
+      "cell_code": "L1Q4",
+      "unique_id": "5ee393b6c9e77c0008ccc20c_1",
+      "group_id": "vcgrp_2881f51d5892a3b867e0",
+      "claim": "On 26 February a 41-year-old soldier that attended a Gangeler Carnival event was hospitalized after testing positive to the virus .",
+      "evidence": "On 26 February , a 41-year-old soldier who worked in Cologne-Wahn military airport and had attended a Gangeler Carnival in Gangelt with the 47-year-old patient from North Rhine-Westphalia was admitted to Bundeswehr Central Hospital , Koblenz , the first case in Rhineland-Palatinate .",
+      "evidence_words": 43,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "b234f3e555ef9ab3",
+      "cell_code": "L1Q4",
+      "unique_id": "5ece9462c9e77c000846690e_2",
+      "group_id": "vcgrp_4a18c1c3404960073c82",
+      "claim": "Craig Marduk is a fighter with Bellator MMA .",
+      "evidence": "The company was previously known as Bellator Fighting ChampionshipsThe promoter features notable talents such as Michael Chandler , Ryan Bader , Gegard Mousasi , Paul Daley , Rory MacDonald , Lyoto Machida , Chael Sonnen , Muhammed Lawal , Patrício `` Pitbull '' Freire , Craig Marduk , Quinton `` Rampage '' Jackson , Michael `` Venom '' Page , Fedor Emelianenko , & Matt Mitrione , among others.",
+      "evidence_words": 69,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "2a27fc9b620b04d2",
+      "cell_code": "L1Q4",
+      "unique_id": "5eb29884c9e77c0008d9248e_3",
+      "group_id": "vcgrp_75cabe5093ab771444fa",
+      "claim": "The `` Autorità Garante della Concorrenza e del Mercato '' is an Italian Authority which controls the merger of companies .",
+      "evidence": "Borsa Italiana 2007 ReviewAs part of the authorization of the merger , the Italian Competition Authority ( Autorità Garante della Concorrenza e del Mercato ) forbid Intesa Sanpaolo to open any new branches for two years in the provinces of Udine and Gorizia ( Friuli – Venezia Giulia region ) , provinces of Rovigo and Padua ( Veneto region ) , Aosta Valley , provinces of Biella and Alessandria ( Piedmont region ) , Province of Bolzano ( South Tyrol ) , Province of Bologna ( Emilia-Romagna region ) , Province of Pavia ( Lombardy region ) , Province of Naples ( Campania region ) , Province of Imperia ( Liguria region ) , provinces of Sassari and Cagliari ( Sardinia Island ) , Province of Rieti ( Lazio region ) , province of Terni ( Umbria region ) , Province of Pesaro-Urbino ( Marche region ) , Province of Pescara ( Abruzzo region ) and Province of Catanzaro ( Calabria region ) .French banking group Crédit Agricole started to spin off from Intesa Sanpaolo , by acquiring Cariparma , FriulAdria in 2007 and Carispezia in 2011 , as well as branches from Intesa Sanpaolo .",
+      "evidence_words": 196,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "c2691bacf3c8a77b",
+      "cell_code": "L2Q1",
+      "unique_id": "5ec7d50dc9e77c0008441dd7_3",
+      "group_id": "vcgrp_46d849c8a5e1a3a517b1",
+      "claim": "Hannah Montana : The Movie got mixed feedback .",
+      "evidence": "The film received generally positive reviews .",
+      "evidence_words": 7,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "2402d5fd84289907",
+      "cell_code": "L2Q1",
+      "unique_id": "5ee393b7c9e77c0008cccd7a_3",
+      "group_id": "vcgrp_195544c1236457a67f5f",
+      "claim": "Over 240 people had tested positive for coronavirus and more than 90 people had recovered in Vietnam in 2020 .",
+      "evidence": "there were 240 confirmed cases , with 90 recoveries and 0 deaths .",
+      "evidence_words": 13,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "ccf4834104bed9f4",
+      "cell_code": "L2Q1",
+      "unique_id": "5ed4de09c9e77c000848ac05_3",
+      "group_id": "vcgrp_4be73a49e3e6bd82b9fd",
+      "claim": "Dina was married to Michael Lohan for over 21 years , from 1985 to 2007 .",
+      "evidence": "Dina married Michael Lohan on December 12,1985.She later divorced her husband Michael after 19 years of marriage.",
+      "evidence_words": 17,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "2537e4602bb5ef54",
+      "cell_code": "L2Q1",
+      "unique_id": "5eb29888c9e77c0008d93496_2",
+      "group_id": "vcgrp_f25ca8a2d147a79ad9e4",
+      "claim": "Michael Showalter 's twins were born in 2011 .",
+      "evidence": "In June 2014 , his wife gave birth to twins.",
+      "evidence_words": 10,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "1cda94d0e331cbb2",
+      "cell_code": "L2Q2",
+      "unique_id": "5ede072ec9e77c00084d2750_2",
+      "group_id": "vcgrp_601948d6531598ca7a55",
+      "claim": "Amy Lee lost a younger sister before 1988 .",
+      "evidence": "Lee had a younger sister who died in 1988 at the age of three from an unidentified illness .",
+      "evidence_words": 19,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "a1f51fd40ad31759",
+      "cell_code": "L2Q2",
+      "unique_id": "5ea2d97dc9e77c0009cdb33f_2",
+      "group_id": "vcgrp_7cdc829e1fcea5156dad",
+      "claim": "Aaliyah has sold over 50 million albums worldwide .",
+      "evidence": "As of December 2008 , she has sold 8.4 million albums in the United States and over 32 million albums worldwide .",
+      "evidence_words": 22,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "d9ecffc935da5a11",
+      "cell_code": "L2Q2",
+      "unique_id": "5ee39419c9e77c0008ccfc54_3",
+      "group_id": "vcgrp_016a2d2981db6c274ed6",
+      "claim": "Daredevil season 3 holds an approval rating higher than 91 % on Rotten Tomatoes based on more than 12 reviews .",
+      "evidence": "The third season has a 90 % approval rating on Rotten Tomatoes , based on 10 reviews , with an average rating of 7.4/10 .",
+      "evidence_words": 25,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "6ea16759ca6bb60a",
+      "cell_code": "L2Q2",
+      "unique_id": "5ed4de03c9e77c00084894d7_2",
+      "group_id": "vcgrp_f34df24af95f5d32b1f6",
+      "claim": "Nutella was first available to the public some years after 1955 .",
+      "evidence": "manufactured by the Italian company Ferrero that was first introduced in 1942 , although its first iteration dates to 1987.",
+      "evidence_words": 20,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "b0865e875cfea7e6",
+      "cell_code": "L2Q3",
+      "unique_id": "5ebbf32bc9e77c00092954a4_3",
+      "group_id": "vcgrp_d8ddbd50508b80270abb",
+      "claim": "Double Dhamaal was a moderate commercial success .",
+      "evidence": "Upon release , the film received mixed to negative reviews from critics , unlike its prequel , however was a huge success at the box office.",
+      "evidence_words": 26,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "e0144cd8265c7c14",
+      "cell_code": "L2Q3",
+      "unique_id": "5ec284fec9e77c00084176e4_2",
+      "group_id": "vcgrp_e12d520da474bf426fd4",
+      "claim": "London is an insignificant financial centre .",
+      "evidence": "London is a major financial centre for international business and commerce and is one of three `` command centres '' for the global economy ( along with New York City and Tokyo ) .",
+      "evidence_words": 34,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "8d6f4bb6ba2b7175",
+      "cell_code": "L2Q3",
+      "unique_id": "5eb9573cc9e77c0008fa1ba6_3",
+      "group_id": "vcgrp_9d0bbc00ae37362b91aa",
+      "claim": "Just Mercy is set to be released on December 24 , 2019 .",
+      "evidence": "It had its world premiere at the Toronto International Film Festival on September 8 , 2019 , and is scheduled to be theatrically released on December 25 , 2019 , by Warner Bros. Pictures.",
+      "evidence_words": 34,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "1d6fb2ae3521597a",
+      "cell_code": "L2Q3",
+      "unique_id": "5ec55991c9e77c000842dbd9_3",
+      "group_id": "vcgrp_e6689d931a13039b150c",
+      "claim": "Cedric Benson gave the officer a business card .",
+      "evidence": "The report continues to state that when asked for his driver 's license , Benson apparently gave the officer a calling card , which stated , Cedric Benson , Mortgage Lender / Broker.",
+      "evidence_words": 33,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "033be4597a2ca37d",
+      "cell_code": "L2Q4",
+      "unique_id": "5eb29889c9e77c0008d93f1a_3",
+      "group_id": "vcgrp_b998babdc005b9cba8d8",
+      "claim": "French club Marseille signed Kostas Mitroglou on a four-year contract on 31 August 2017 .",
+      "evidence": "Eagles in the semi-finals of Taça de Portugal S.L . Benfica ( in Portuguese ) On 28 February 2017 , Mitroglou scored twice against Estoril in the first leg of the Taça de Portugal semi-finals. On 31 August 2017 , Greek Superleague Greece club Panathinaikos F.C . announced the signing of Mitroglou on a four-year contract for a transfer fee of €50 million to Benfica .",
+      "evidence_words": 66,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "91eb52465413975e",
+      "cell_code": "L2Q4",
+      "unique_id": "5ee3949bc9e77c0008ccfdd4_4",
+      "group_id": "vcgrp_012d1b0ad97779bbe54e",
+      "claim": "Donna Noble feels the need to prove herself to travel with the Doctor .",
+      "evidence": "In a contrast to the Tenth Doctor 's prior companions , who both harboured romantic feelings for him , Donna and the Doctor shared a strictly friendly relationship , and she does not feel the need to prove herself to travel with the Doctor ; the Doctor refers to her as his `` best mate '' .",
+      "evidence_words": 57,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "fe5b82440464a242",
+      "cell_code": "L2Q4",
+      "unique_id": "5ec7d50cc9e77c00084415bd_2",
+      "group_id": "vcgrp_a6c04af51808d9042015",
+      "claim": "On Rotten Tomatoes , Draft Day has a rating of less than 56 % , according to less than 80 reviews .",
+      "evidence": "It currently holds a 58 % rating on Rotten Tomatoes based on 95 reviews with the consensus : `` It 's perfectly pleasant for sports buffs and Costner fans , but overall , Draft Day lives down to its title by relying too heavily on the sort of by-the-numbers storytelling that only a statistician could love '' .",
+      "evidence_words": 58,
+      "gold_label_blinded": true
+    },
+    {
+      "audit_id": "c45f863753eb7246",
+      "cell_code": "L2Q4",
+      "unique_id": "5ede072fc9e77c00084d31b5_2",
+      "group_id": "vcgrp_4618f896e6653c41b489",
+      "claim": "In 2015 , under 600 people were killed in Karachi due to a heatwave .",
+      "evidence": "A further 561 people have died in neighbouring Telangana , said Sada Bhargavi , a state disaster management commissioner. *On 20-21 June 2015 , a heat wave has killed more than 700 people in Karachi , Pakistan.",
+      "evidence_words": 37,
+      "gold_label_blinded": true
+    }
+  ]
+}

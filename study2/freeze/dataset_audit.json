@@ -1,0 +1,210 @@
+{
+  "schema_version": "1.0",
+  "classification": "OFFICIAL DATASET AUDIT — PRE-INFERENCE",
+  "source": {
+    "download_url": "https://github.com/TalSchuster/talschuster.github.io/raw/master/static/vitaminc.zip",
+    "repository": "https://github.com/TalSchuster/VitaminC",
+    "retrieved_date": "2026-09-25"
+  },
+  "files": {
+    "vitaminc.zip": {
+      "bytes": 22381149,
+      "sha256": "49d82dc1690cbee420d18e2c26f687a7937710bb211845d2571430dfd4dc0337"
+    },
+    "test.jsonl": {
+      "bytes": 24285608,
+      "sha256": "7f799e076dec184e31533d46704fef2022d08ef68a0db2c44f138d2b4e552f36"
+    },
+    "train.jsonl": {
+      "bytes": 164411764,
+      "sha256": "446163d81ec9b654d2514e8ba5b8f2e4bd8938342e34c98e7660fe05a8a3ca39"
+    },
+    "dev.jsonl": {
+      "bytes": 27826242,
+      "sha256": "a3258bc959754c84bade150d3bf447fd9c91a529d93bb676f034fdafda5f26e5"
+    },
+    "DATA_LICENSE": {
+      "bytes": 529,
+      "sha256": "153a128e86c7d0e978243c8c8994dbb5fba9081a36f8d380cd1f5994699e369e"
+    },
+    "README.md": {
+      "bytes": 5268,
+      "sha256": "8b1512acf12fa4d7e7ed152e7ce4d7077479f4f7d910fbf47c132c173589870e"
+    }
+  },
+  "license_notice": "These data annotations incorporate material from Wikipedia, which is licensed pursuant to the Wikipedia Copyright Policy. The Synthetic annotations use and modify examples from the FEVER dataset (https://fever.ai/resources.html). These annotations are made available under the license terms described on the applicable Wikipedia article pages, or, where Wikipedia license terms are unavailable, under the Creative Commons Attribution-ShareAlike License (version 3.0), available at http://creativecommons.org/licenses/by-sa/3.0/.",
+  "schema_field_presence_counts": {
+    "unique_id": 55197,
+    "case_id": 55197,
+    "wiki_revision_id": 34481,
+    "label": 55197,
+    "claim": 55197,
+    "evidence": 55197,
+    "page": 55197,
+    "revision_type": 55197,
+    "FEVER_id": 20716
+  },
+  "available_splits": [
+    "train",
+    "dev",
+    "test"
+  ],
+  "canonical_labels": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "test_rows": 55197,
+  "test_revision_type_counts": {
+    "real": 34481,
+    "synthetic": 20716
+  },
+  "test_label_counts": {
+    "NOT ENOUGH INFO": 7268,
+    "REFUTES": 20265,
+    "SUPPORTS": 27664
+  },
+  "eligible_binary_real_rows_after_structural_encoding_checks": 26048,
+  "exclusion_counts": {
+    "nonbinary_label": 7268,
+    "malformed_encoding": 238,
+    "broken_markup_or_obvious_truncation": 927,
+    "not_real": 20716
+  },
+  "grouping": {
+    "official_identifiers": [
+      "unique_id",
+      "case_id",
+      "wiki_revision_id",
+      "page",
+      "revision_type"
+    ],
+    "connected_component_keys": [
+      "case_id",
+      "wiki_revision_id",
+      "NFKC/casefold/whitespace claim",
+      "NFKC/casefold/whitespace evidence",
+      "punctuation-collapsed claim",
+      "punctuation-collapsed evidence"
+    ],
+    "groups": 8436,
+    "group_size_distribution": {
+      "1": 4223,
+      "2": 759,
+      "3": 94,
+      "4": 2529,
+      "5": 78,
+      "6": 72,
+      "7": 16,
+      "8": 307,
+      "9": 15,
+      "10": 30,
+      "11": 2,
+      "12": 131,
+      "13": 6,
+      "14": 12,
+      "15": 1,
+      "16": 50,
+      "17": 1,
+      "18": 7,
+      "19": 2,
+      "20": 33,
+      "21": 1,
+      "22": 2,
+      "23": 2,
+      "24": 18,
+      "25": 1,
+      "26": 1,
+      "27": 2,
+      "28": 5,
+      "29": 1,
+      "32": 7,
+      "34": 1,
+      "36": 6,
+      "37": 1,
+      "40": 5,
+      "44": 1,
+      "48": 2,
+      "52": 1,
+      "54": 1,
+      "56": 1,
+      "64": 2,
+      "66": 1,
+      "70": 1,
+      "76": 1,
+      "80": 1,
+      "92": 1,
+      "122": 1,
+      "124": 1
+    },
+    "representatives": 8436,
+    "representative_label_counts": {
+      "REFUTES": 1693,
+      "SUPPORTS": 6743
+    },
+    "policy": "Each connected group is deterministically assigned to one available label and contributes at most one representative."
+  },
+  "duplicate_audit_before_grouping": {
+    "claim_sha256": {
+      "unique_values": 16358,
+      "duplicate_rows_beyond_first": 9690,
+      "groups_with_duplicates": 9448,
+      "maximum_multiplicity": 8
+    },
+    "evidence_sha256": {
+      "unique_values": 14015,
+      "duplicate_rows_beyond_first": 12033,
+      "groups_with_duplicates": 8132,
+      "maximum_multiplicity": 12
+    },
+    "pair_sha256": {
+      "unique_values": 25925,
+      "duplicate_rows_beyond_first": 123,
+      "groups_with_duplicates": 119,
+      "maximum_multiplicity": 3
+    }
+  },
+  "quartile_summary": {
+    "SUPPORTS_Q1": {
+      "candidate_groups": 1686,
+      "min_evidence_words": 4,
+      "max_evidence_words": 22
+    },
+    "SUPPORTS_Q2": {
+      "candidate_groups": 1686,
+      "min_evidence_words": 22,
+      "max_evidence_words": 29
+    },
+    "SUPPORTS_Q3": {
+      "candidate_groups": 1686,
+      "min_evidence_words": 29,
+      "max_evidence_words": 41
+    },
+    "SUPPORTS_Q4": {
+      "candidate_groups": 1685,
+      "min_evidence_words": 41,
+      "max_evidence_words": 256
+    },
+    "REFUTES_Q1": {
+      "candidate_groups": 424,
+      "min_evidence_words": 5,
+      "max_evidence_words": 18
+    },
+    "REFUTES_Q2": {
+      "candidate_groups": 423,
+      "min_evidence_words": 18,
+      "max_evidence_words": 26
+    },
+    "REFUTES_Q3": {
+      "candidate_groups": 423,
+      "min_evidence_words": 26,
+      "max_evidence_words": 35
+    },
+    "REFUTES_Q4": {
+      "candidate_groups": 423,
+      "min_evidence_words": 35,
+      "max_evidence_words": 247
+    }
+  },
+  "encoding": "UTF-8 decoding succeeded; rows containing explicit replacement/mojibake markers were prospectively excluded."
+}

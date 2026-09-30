@@ -1,0 +1,43 @@
+{
+  "version": "vitaminc_analysis_20260925_v1",
+  "bootstrap_seed": 2026092502,
+  "bootstrap_replicates": 10000,
+  "alpha": 0.05,
+  "independent_unit": "unique item",
+  "cluster_contents": "both models plus all roles/conditions for the item",
+  "primary": {
+    "per_model": "P(final incorrect|directed, initial correct)-P(final incorrect|neutral, initial correct)",
+    "panel": "0.5*OpenAI+0.5*Gemini",
+    "complete_pair_requirement": "valid initial plus valid neutral and directed finals",
+    "interval": "percentile item-cluster bootstrap"
+  },
+  "secondary": [
+    "neutral revision",
+    "directed revision",
+    "directed-minus-neutral revision",
+    "neutral harmful revision",
+    "directed harmful revision",
+    "resistance",
+    "initial accuracy",
+    "neutral final accuracy",
+    "directed final accuracy",
+    "neutral accuracy change",
+    "directed accuracy change",
+    "productive correction descriptive",
+    "target adoption",
+    "transition matrices",
+    "invalid/failure counts",
+    "model-specific exact McNemar sensitivity"
+  ],
+  "productive_correction_status": "descriptive with exact denominator warning",
+  "evidence_quartile": "audit/descriptive only; no interaction test",
+  "model_interaction": "exploratory only and requires a direct interaction estimate",
+  "interpretation_rules": {
+    "ci_above_zero": "Explicit incorrect alternative associated with more harmful revision than neutral reconsideration for this sample and fixed panel.",
+    "ci_spans_zero": "Study does not resolve the sign; do not claim no effect or equivalence.",
+    "ci_below_zero": "Report unexpected lower directed harmful revision without changing analysis.",
+    "half_width_over_0_075": "Report realized precision poorer than prospectively intended.",
+    "different_model_significance": "No model-difference claim."
+  },
+  "invalidity": "Invalid initial makes both branches structurally ineligible; invalid final excluded from valid-pair primary and reported separately; no scientific invalid resampling."
+}

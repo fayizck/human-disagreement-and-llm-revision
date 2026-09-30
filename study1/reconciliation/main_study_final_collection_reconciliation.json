@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "collection": {
+    "selected_examples": 300,
+    "planned_responses": 33000,
+    "recorded_responses": 32992,
+    "follow_ups_not_applicable": 8,
+    "requests_attempted": 32994,
+    "retried_requests": 2
+  },
+  "checks": {
+    "planned_slots_33000": true,
+    "committed_32992": true,
+    "structurally_ineligible_8": true
+  },
+  "database": {
+    "path": "study1/data/state.sqlite3",
+    "sha256_after": "58d86fad54abc6383b9804905fa07b79daf5c84c6ca4fb16fb9aa5b06449436a",
+    "integrity": "ok"
+  },
+  "provider_counts": {},
+  "role_counts": {},
+  "invalid_initial_responses": 2
+}

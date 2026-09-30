@@ -1,0 +1,55 @@
+{
+  "all_required_files_generated": true,
+  "analysis_manifest_sha256": "fef202c67834fb7a3581ab5f28fa11744f976c0228feb2ec44a2552798487c76",
+  "database_sha256_after": "58d86fad54abc6383b9804905fa07b79daf5c84c6ca4fb16fb9aa5b06449436a",
+  "database_sha256_before": "58d86fad54abc6383b9804905fa07b79daf5c84c6ca4fb16fb9aa5b06449436a",
+  "database_unchanged": true,
+  "fold_group_leakage": 0,
+  "folds": [
+    {
+      "fold": 1,
+      "groups": 59,
+      "items": 60
+    },
+    {
+      "fold": 2,
+      "groups": 59,
+      "items": 60
+    },
+    {
+      "fold": 3,
+      "groups": 59,
+      "items": 60
+    },
+    {
+      "fold": 4,
+      "groups": 59,
+      "items": 60
+    },
+    {
+      "fold": 5,
+      "groups": 60,
+      "items": 60
+    }
+  ],
+  "human_distribution_complete": true,
+  "ineligible_not_analyzed": true,
+  "items": 300,
+  "latex_main_compiled": true,
+  "manifest_created_before_outcomes_loaded": true,
+  "n40_indices_exact": true,
+  "n50_indices_exact": true,
+  "pilot_rows_included": false,
+  "primary_converged": true,
+  "primary_covariance_finite": true,
+  "primary_design_rank": 15,
+  "primary_estimable": true,
+  "primary_extreme_coefficients": false,
+  "primary_parameters": 15,
+  "qualitative_sheet_compiled": true,
+  "related_groups": 296,
+  "rq2_design_rank": 17,
+  "rq2_estimable": true,
+  "rq2_parameters": 17,
+  "status": "PASS"
+}

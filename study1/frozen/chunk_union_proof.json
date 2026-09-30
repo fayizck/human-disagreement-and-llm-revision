@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "chunk_200_items": 200,
+  "chunk_100_items": 100,
+  "intersection_items": 0,
+  "union_items": 300,
+  "union_equals_main_manifest": true,
+  "related_groups_split_across_chunks": 0,
+  "deterministic_group_cohesion_adjustments": [
+    {
+      "item_id": "snli:4116163419.jpg#0r2n",
+      "group_id": "related:9f9824c1d65da88f67a3bb5c",
+      "from": 2,
+      "to": 1,
+      "reason": "keep_related_group_in_one_operational_chunk"
+    },
+    {
+      "item_id": "snli:4413167760.jpg#0r1e",
+      "group_id": "related:bd0b2dc5c740dab1492d84e7",
+      "from": 1,
+      "to": 2,
+      "reason": "deterministic_stratum_rebalance_after_group_cohesion"
+    }
+  ]
+}

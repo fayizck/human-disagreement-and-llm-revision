@@ -1,0 +1,106 @@
+{
+  "multiplicity": {
+    "holm": {
+      "rq2_CxS": 0.462,
+      "rq3_C_minus_B": 0.462,
+      "rq3_D_minus_A": 0.021
+    },
+    "raw": {
+      "rq2_CxS": 0.44030578906187645,
+      "rq3_C_minus_B": 0.231,
+      "rq3_D_minus_A": 0.007
+    }
+  },
+  "paired_alternatives": {
+    "ci_high": 0.20713795927014944,
+    "ci_low": 0.1358176743115306,
+    "high_adoptions": 122,
+    "high_rate": 0.2071307300509338,
+    "low_adoptions": 22,
+    "low_rate": 0.03735144312393888,
+    "paired_difference": 0.1697792869269949,
+    "pairs_non_tied": 589,
+    "ties": 9
+  },
+  "primary_rq1": {
+    "ci_high": 0.07829860889942358,
+    "ci_low": -0.13902261121195686,
+    "estimate": -0.03036200115626664,
+    "odds_ratio": 0.9700942947215362,
+    "or_ci_high": 1.0814455397225091,
+    "or_ci_low": 0.8702083517703071,
+    "p_value": 0.5827970745198676,
+    "std_error": 0.055212655306395936
+  },
+  "qualitative_cell_counts": {
+    "high|adoption|low": 2,
+    "high|adoption|substantial": 4,
+    "high|nonadoption|low": 4,
+    "high|nonadoption|substantial": 4,
+    "low|adoption|low": 4,
+    "low|adoption|substantial": 4,
+    "low|nonadoption|low": 4,
+    "low|nonadoption|substantial": 4
+  },
+  "robustness_summary": "The prespecified robustness checks did not materially change the directional/interval interpretation.",
+  "rq1_summary": "not clearly supported: the 95\\% interval spans zero for challenge specificity.",
+  "rq2_interaction": {
+    "ci_high": 0.06672628764176862,
+    "ci_low": -0.15299774656511966,
+    "estimate": -0.043135729461675515,
+    "holm_p": 0.462,
+    "odds_ratio": 0.9577813820928798,
+    "or_ci_high": 1.0690028388389512,
+    "or_ci_low": 0.8581316555530195,
+    "p_value": 0.44030578906187645,
+    "std_error": 0.055823114544350835
+  },
+  "rq2_summary": "not clearly supported: the 95\\% interval spans zero for direction-specific human support.",
+  "rq3": {
+    "comparisons": {
+      "C_minus_B": {
+        "ci_high": 0.004308727526259279,
+        "ci_low": -0.018141500250844867,
+        "estimate": -0.0070704941429209104,
+        "p_value": 0.231
+      },
+      "D_minus_A": {
+        "ci_high": -0.005119124049614411,
+        "ci_low": -0.026713723273979122,
+        "estimate": -0.015952713491151807,
+        "p_value": 0.007
+      }
+    },
+    "fold_means": [
+      {
+        "delta_log_loss_vs_A": 0.0,
+        "mean_brier": 0.09490252889596726,
+        "mean_log_loss": 0.32435974112908655,
+        "model_set": "A"
+      },
+      {
+        "delta_log_loss_vs_A": -0.00602772330949175,
+        "mean_brier": 0.09333361609865434,
+        "mean_log_loss": 0.3183320178195948,
+        "model_set": "B"
+      },
+      {
+        "delta_log_loss_vs_A": -0.013126058350519942,
+        "mean_brier": 0.09307355105325907,
+        "mean_log_loss": 0.3112336827785666,
+        "model_set": "C"
+      },
+      {
+        "delta_log_loss_vs_A": -0.015982473957601828,
+        "mean_brier": 0.09217626663636587,
+        "mean_log_loss": 0.3083772671714847,
+        "model_set": "D"
+      }
+    ],
+    "holm_p": {
+      "C_minus_B": 0.462,
+      "D_minus_A": 0.021
+    }
+  },
+  "rq3_summary": "Model D minus A log-loss difference was -0.0160 (95% bootstrap CI -0.0267 to -0.0051); this quantifies incremental held-out information rather than causality."
+}

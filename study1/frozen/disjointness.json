@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "main_items": 300,
+  "main_related_groups": 296,
+  "partition_sizes": {
+    "40_item_pilot": 40,
+    "stage1_development": 1,
+    "micro_development": 5,
+    "measurement20_development": 20
+  },
+  "grouping_fields": [
+    "item_id",
+    "group_id",
+    "original_group_id",
+    "premise_hash",
+    "normalized_premise"
+  ],
+  "collisions": []
+}

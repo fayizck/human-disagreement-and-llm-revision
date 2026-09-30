@@ -1,0 +1,20 @@
+{
+  "version": "vitaminc_parser_20260925_v1",
+  "valid_labels": [
+    "SUPPORTS",
+    "REFUTES"
+  ],
+  "normalization": [
+    "decode provider-visible text as Unicode",
+    "strip leading and trailing Unicode whitespace",
+    "apply Unicode casefold then uppercase ASCII comparison"
+  ],
+  "accepted_examples": [
+    "SUPPORTS",
+    "REFUTES",
+    " supports ",
+    "refutes"
+  ],
+  "rejected": "Any remaining characters, punctuation, explanation, multiple labels, refusal, truncation, or empty text",
+  "invalid_scientific_output_retry": false
+}
